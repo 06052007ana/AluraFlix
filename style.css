@@ -32,7 +32,7 @@ body{
 
 .container_botão{
     background-color: var(--botao-azul);
-    color: (var(--branco-principal));
+    color: var(--branco-principal);
     border-radius: 5px;
     padding: 1em;
     display: block;
@@ -41,9 +41,10 @@ body{
 }
 
 .botão2{
-    background-color: transparent;
-    border: 5px solid white
+   background-color: transparent;
+   border: 2px solid white;
 }
+
 .container_aviso{
     font-size: 12px;
     color: var(--cinza-secundario);
@@ -59,5 +60,21 @@ body{
 }
 
 .container_caixa{
-    margin: 0 6ms;
+    margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 }
